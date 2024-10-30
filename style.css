@@ -1,0 +1,115 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Aligns logo and name vertically */
+    justify-content: center; /* Centers the logo and name horizontally */
+}
+
+.logo {
+    width: 500px; /* Increased size for the logo */
+    margin-right: 10px; /* Adds space between logo and name */
+}
+
+.store-name {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #FFA500;
+    text-align: center; /* Center the nav */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block; /* Aligns the list horizontally */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.banner {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.promotions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.column {
+    text-align: center;
+    width: 30%;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+}
+
+.buy-button {
+    background-color: #f4c542;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #e5b533;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.footer-logo {
+    width: 200px; /* Adjust as needed */
+}
